@@ -42,7 +42,7 @@ export default function Register(){
             <TextInput value={age} placeholder="age" onChangeText={(txt)=>setAge(txt)} />
             <TextInput value={ava} placeholder="avatar" onChangeText={(txt)=>setAva(txt)} />
             <TextInput value={em} placeholder="Email" onChangeText={(txt)=>setEmail(txt)} />
-            <TextInput value={ps} placeholder="Password" onChangeText={(txt)=>setPS(txt)} />
+            <TextInput value={ps} placeholder="Paaword" onChangeText={(txt)=>setPS(txt)} />
             <Button title="Add" onPress={()=>AddUser()} />
         </View>
     );

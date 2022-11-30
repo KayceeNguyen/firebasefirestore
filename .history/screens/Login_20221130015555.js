@@ -15,7 +15,7 @@ export default function Login(){
     return(
         <View>
             <TextInput value={em} placeholder="Email" onChangeText={(txt)=>setEmail(txt)} />
-            <TextInput value={ps} placeholder="Password" onChangeText={(txt)=>setPS(txt)} />
+            <TextInput value={ps} placeholder="Paaword" onChangeText={(txt)=>setPS(txt)} />
             <Button title="Sign In" onPress={()=>SignIn()} />
         </View>
     );
